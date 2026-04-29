@@ -1,0 +1,16 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "bun run build",
+  "devCommand": "bun run dev",
+  "installCommand": "bun install",
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Frame-Options", "value": "DENY" },
+        { "key": "X-SAIF-Creator", "value": "Md Nazmul Islam Bijoy NB TECH" },
+        { "key": "X-ILRMF-Engine", "value": "v1.0" }
+      ]
+    }
+  ]
+}

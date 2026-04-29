@@ -1,0 +1,2 @@
+"""Statutes Corpus"""
+STATUTES = {}
